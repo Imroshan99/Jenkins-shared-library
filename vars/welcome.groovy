@@ -9,5 +9,5 @@ def mul(a,b){
 echo "mul is ${a} ${b} is equals ${a*b}"
 }
 def gitClone(link){
- git clone ${link}
+ git ${link}
 }
